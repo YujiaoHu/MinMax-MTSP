@@ -1,0 +1,87 @@
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 21 17:21:21 2020
+
+Academic license - for non-commercial use only
+Changed value of parameter TimeLimit to 1800.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter LazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 41 rows, 76 columns and 330 nonzeros
+Variable types: 1 continuous, 75 integer (75 binary)
+Coefficient statistics:
+  Matrix range     [4e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.2357435
+Presolve removed 12 rows and 12 columns
+Presolve time: 0.00s
+Presolved: 29 rows, 64 columns, 270 nonzeros
+Variable types: 1 continuous, 63 integer (63 binary)
+
+Root relaxation: objective 3.062989e+00, 41 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    3.06299    0   14    4.23574    3.06299  27.7%     -    0s
+H    0     0                       4.2075427    3.06299  27.2%     -    0s
+H    0     0                       4.1408762    3.06299  26.0%     -    0s
+     0     0    3.06299    0   20    4.14088    3.06299  26.0%     -    0s
+     0     0    3.06299    0   20    4.14088    3.06299  26.0%     -    0s
+     0     0    3.27189    0   10    4.14088    3.27189  21.0%     -    0s
+
+Explored 1 nodes (83 simplex iterations) in 0.01 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 4.14088 4.20754 4.23574 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.140876244462e+00, best bound 4.140876244462e+00, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 21 17:22:29 2020
+
+Academic license - for non-commercial use only
+Changed value of parameter TimeLimit to 1800.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter LazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 41 rows, 76 columns and 330 nonzeros
+Variable types: 1 continuous, 75 integer (75 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.1410658
+Presolve removed 12 rows and 12 columns
+Presolve time: 0.00s
+Presolved: 29 rows, 64 columns, 270 nonzeros
+Variable types: 1 continuous, 63 integer (63 binary)
+
+Root relaxation: objective 1.984601e+00, 30 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.98460    0   13    4.14107    1.98460  52.1%     -    0s
+H    0     0                       3.8822965    1.98460  48.9%     -    0s
+     0     0    2.07047    0   21    3.88230    2.07047  46.7%     -    0s
+     0     0    2.11905    0   23    3.88230    2.11905  45.4%     -    0s
+     0     0    2.13302    0   26    3.88230    2.13302  45.1%     -    0s
+     0     0    2.13308    0   27    3.88230    2.13308  45.1%     -    0s
+     0     0    2.13454    0   28    3.88230    2.13454  45.0%     -    0s
+     0     0    2.42710    0   16    3.88230    2.42710  37.5%     -    0s
+     0     0    2.49011    0   10    3.88230    2.49011  35.9%     -    0s
+     0     0    3.51734    0   12    3.88230    3.51734  9.40%     -    0s
+
+Cutting planes:
+  Gomory: 1
+
+Explored 1 nodes (115 simplex iterations) in 0.01 seconds
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 3.8823 4.14107 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.882296530445e+00, best bound 3.882296530445e+00, gap 0.0000%
