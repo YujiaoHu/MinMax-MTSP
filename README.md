@@ -11,7 +11,7 @@ Implementation of ["A Reinforcement Learning Approach for Optimizing Multiple Tr
 		}
 
 ## Dependencies
-* Python >= 3.6.8
+* Python >= 3.6
 * Numpy
 * Google OR-Tools
 * Gurobi
