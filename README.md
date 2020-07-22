@@ -13,7 +13,6 @@ Implementation of "A Reinforcement Learning Approach for Optimizing Multiple Tra
 ## Dependencies
 * Python >= 3.6.8
 * Numpy
-* Scipy
 * Google OR-Tools
 * Gurobi
 * PyTorch
