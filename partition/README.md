@@ -5,7 +5,7 @@ python train_hop.py
 
 You are also allowed to modify paprameters in the `options.py` or run
 ```python
-python train_hop --anum=5 --cnum=100
+python train_hop --anum 5 --cnum 100
 ```
 
 ## Note
