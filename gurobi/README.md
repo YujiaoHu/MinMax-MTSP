@@ -1,4 +1,4 @@
-#Generating data by `Gurobi`
+# Generating data by `Gurobi`
 
 `minmax.sh` is an example bash file to generte data.
 
