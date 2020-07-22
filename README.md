@@ -1,5 +1,5 @@
 # MinMax-MTSP
-Implementation of "A Reinforcement Learning Approach for Optimizing Multiple Traveling Salesman Problems over Graphs", which is accepted at "Knowledge-based System". If this code is useful for your work, please cite our paper:
+Implementation of ["A Reinforcement Learning Approach for Optimizing Multiple Traveling Salesman Problems over Graphs"](https://www.sciencedirect.com/science/article/abs/pii/S0950705120304445?dgcid=rss_sd_all), which is accepted at "Knowledge-based System". If this code is useful for your work, please cite our paper:
 
 		@article{hu2020reinforcement,
 		  title={A reinforcement learning approach for optimizing multiple traveling salesman problems over graphs},
