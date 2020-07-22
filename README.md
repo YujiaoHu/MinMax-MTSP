@@ -10,4 +10,21 @@ Implementation of "A Reinforcement Learning Approach for Optimizing Multiple Tra
 		  publisher={Elsevier}
 		}
 
-## Paper
+## Dependencies
+* Python >= 3.6.8
+* Numpy
+* Scipy
+* Google OR-Tools
+* Gurobi
+* PyTorch
+* tqdm
+* TensorboardX
+
+## Usage
+### Generating Data
+Codes under `gurobi` and `ortools` can genearte data computed by `Gurobi` and `Google OR-Tools` respectively.
+
+You are expected to generate validate/test data before running the training codes.
+
+### Training Model
+The training codes are given under `partition`
